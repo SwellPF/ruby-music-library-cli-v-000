@@ -29,4 +29,7 @@ class Artist
     Song.new
   end
   
+  def songs
+    @songs
+  end
 end
