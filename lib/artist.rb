@@ -40,6 +40,8 @@ class Artist
   end
   
   def genres
+    #binding.pry
+   songs.each {|song| puts song.genre}
    ###  need to iterate over the songs and return the unique genres
   end
 end
